@@ -1,0 +1,18 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+  font: 18px sans-serif;
+}
+
+section {
+  padding-block: 50px;
+}
+
+.section1 {
+  background: lightblue;
+}
+
+.section2 {
+  background: pink;
+}

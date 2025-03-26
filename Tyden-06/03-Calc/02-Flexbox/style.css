@@ -1,0 +1,40 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+.layout div {
+	font: 30px/1 sans-serif;
+	font-weight: bold;
+	border: 2px solid black;
+	min-height: 200px;
+}
+
+.gallery img {
+	display: block;
+	width: 100%;
+}
+
+/* ------------- */
+
+.layout {
+
+}
+
+.menu {
+	background-color: #2ecc71;
+}
+.content {
+	background-color: #f1c40f;
+}
+.sidebar {
+	background-color: #e74c3c;
+}
+
+/* ------------- */
+
+.gallery {
+
+}
+
+.item {
+
+}

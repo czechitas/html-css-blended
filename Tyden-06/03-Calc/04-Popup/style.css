@@ -1,0 +1,26 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+  font: 18px sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.popup {
+  width: 500px;
+  height: 300px;
+
+  padding: 30px;
+  text-align: center;
+  background: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.popup h2 {
+  margin-top: 0;
+}
